@@ -43,9 +43,20 @@
 
 ---
 
-## 🚀 설치 및 실행 방법  
-
-### 1. 프로젝트 클론  
-```bash
+## 🚀 설치 및 실행 방법
+### 1. 프로젝트 클론
+bash
 git clone https://github.com/your-repo/AlcoholWatcher.git
 cd AlcoholWatcher
+
+
+### 2. 백엔드 서버 실행
+bash
+cd django_webserver
+myenv\Scripts\activate
+python manage.py runserver 0.0.0.0:8000
+
+
+## 📄 라이선스
+이 프로젝트는 MIT 라이선스를 따릅니다.
+
