@@ -34,11 +34,11 @@
 ---
 
 ## 🛠 기술 스택  
-- **하드웨어**: 알코올 센서, 자이로 센서, 스피커, 모터  
-- **MCU**: STM32 Nucleo L073RZ, ESP32  
-- **백엔드**: Python Django  
-- **프론트엔드**: JavaScript, HTML, CSS  
-- **데이터베이스**: SQLite  
+- **하드웨어** : 알코올 센서, 자이로 센서, 스피커, 모터  
+- **MCU** : STM32 Nucleo L073RZ, ESP32  
+- **백엔드** : Python Django  
+- **프론트엔드** : JavaScript, HTML, CSS  
+- **데이터베이스** : SQLite  
 
 ---
 
