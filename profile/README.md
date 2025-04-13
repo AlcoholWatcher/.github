@@ -50,7 +50,7 @@ cd AlcoholWatcher <br>
 
 
 ### 2. 백엔드 서버 실행
-bash
+bash <br>
 cd django_webserver <br>
 myenv\Scripts\activate <br>
 python manage.py runserver 0.0.0.0:8000 <br>
