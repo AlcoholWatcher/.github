@@ -3,8 +3,6 @@
 <p align="left">AlcoholWatcher는 음주운전 방지를 위한 시스템으로, 사용자의 혈중알코올농도를 측정하고 차량의 속도와 시동을 제어합니다.</p>
 
 ---
-<br>
-
 ## 🎬 시연 영상
 - **https://youtu.be/z9DGNRnyafg**
 
