@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./logo.png" alt="AlcoholWatcher Logo" width="200"/>
-</p>
-
 <h1 align="center">🚗 AlcoholWatcher</h1>
 <p align="center">음주운전 방지를 위한 IoT + Embedded + Web 시스템</p>
 
