@@ -1,71 +1,115 @@
-# 🚗 AlcoholWatcher
+오키 👍 복붙하기 편하게 **마크다운 전체 버전**만 줄게.
+바로 README.md에 붙여넣으면 돼.
 
-**AlcoholWatcher는 음주운전 방지를 위한 시스템으로, 사용자의 혈중알코올농도를 측정하고 차량의 속도와 시동을 제어합니다.**  
-<br>
+````markdown
+<p align="center">
+  <img src="./logo.png" alt="AlcoholWatcher Logo" width="200"/>
+</p>
 
-## 🎬 시연 영상
-- **https://youtu.be/z9DGNRnyafg**
-<br>
+<h1 align="center">🚗 AlcoholWatcher</h1>
+<p align="center">음주운전 방지를 위한 IoT + Embedded + Web 시스템</p>
 
-## 📑 PPT 발표 자료 
-- **https://buly.kr/3COReJe**
-<br>
-
-## 📌 주요 기능  
-- **1차 로직 Input : 실시간 알코올 농도 측정**  
-  - `센서를 통해 사용자의 알코올 농도를 감지`
-- **1차 로직 Output : 스피커 출력**  
-  - `"음주 상태가 감지되었습니다. 차량이 제한될 수 있습니다."`  
-
-<br>
-
-- **2차 로직 Input : 자이로 센서(조향 및 가감속 센서)**  
-  - `센서를 통해 비정상적인 차량 조향 및 가감속 감지`  
-- **2차 로직 Output A : 스피커 출력**  
-  - `"즉시 차량을 멈추십시오. 차량의 속도가 감속됩니다."`
-- **2차 로직 Output B : 다른 차량에 알림**  
-  - `"조심하세요. 주위에 음주운전 차량이 있습니다."`  
-- **2차 로직 Output C : 보행자에게 알림**  
-  - `안드로이드 디바이스 앱 알림` 
-
-<br>
-
-- **3차 로직 Input : 모터 스피드 감속**  
-  - `10초당 모터 PWM 값 100씩 감소, IF 500 -> 200`  
-- **3차 로직 Output : 스피커 출력 (모터 스피드(PWM) 200)**  
-  - `"10초 후 차량이 정지됩니다."`  
-
-<br>
-
-- **센서 데이터 모니터링 시스템**  
-  - 알코올 센서, 자이로 센서, 모터 스피드 값을 실시간 모니터링할 수 있는 대시보드
-  - ![대시보드 이미지](./Dash.png)  
+<p align="center">
+  <a href="https://youtu.be/z9DGNRnyafg"><img src="https://img.shields.io/badge/Demo-YouTube-red?logo=youtube"></a>
+  <a href="https://buly.kr/3COReJe"><img src="https://img.shields.io/badge/PPT-자료-blue?logo=microsoftpowerpoint"></a>
+  <img src="https://img.shields.io/badge/License-MIT-yellow?logo=open-source-initiative">
+</p>
 
 ---
 
-## 🛠 기술 스택  
-- **하드웨어** : 알코올 센서, 자이로 센서, 스피커, 모터  
-- **MCU** : STM32 Nucleo L073RZ, ESP32  
-- **백엔드** : Python Django  
-- **프론트엔드** : JavaScript, HTML, CSS  
-- **데이터베이스** : SQLite  
+## 🎬 시연 영상
+<p align="center">
+  <a href="https://youtu.be/z9DGNRnyafg">
+    <img src="./demo.gif" alt="AlcoholWatcher Demo" width="600"/>
+  </a>
+</p>
+
+---
+
+## 📑 PPT 발표 자료
+📂 발표 자료: [링크 바로가기](https://buly.kr/3COReJe)
+
+---
+
+## 📌 주요 기능
+- **1차 로직**
+  - Input : 알코올 센서 → 혈중 알코올 농도 측정  
+  - Output : 스피커 경고  
+    > "음주 상태가 감지되었습니다. 차량이 제한될 수 있습니다."
+
+- **2차 로직**
+  - Input : 자이로 센서 (조향/가속 감지)  
+  - Output A : 스피커 경고  
+    > "즉시 차량을 멈추십시오. 차량의 속도가 감속됩니다."  
+  - Output B : 다른 차량에 알림  
+    > "조심하세요. 주위에 음주운전 차량이 있습니다."  
+  - Output C : 보행자 앱 알림  
+
+- **3차 로직**
+  - Input : 모터 스피드 제어 (10초당 PWM 100 감소)  
+  - Output : 스피커 경고  
+    > "10초 후 차량이 정지됩니다."
+
+- **센서 데이터 모니터링 대시보드**
+  - 실시간 알코올 센서, 자이로, 모터 스피드 값 모니터링  
+  - ![대시보드 이미지](./Dash.png)
+
+---
+
+## 📡 시스템 아키텍처
+<p align="center">
+  <img src="./architecture.png" alt="System Architecture" width="700"/>
+</p>
+
+---
+
+## 🛠 기술 스택
+<p align="center">
+  <img src="https://img.shields.io/badge/STM32-Embedded-blue?logo=stmicroelectronics"/>
+  <img src="https://img.shields.io/badge/ESP32-IoT-lightgrey?logo=espressif"/>
+  <img src="https://img.shields.io/badge/Django-Backend-green?logo=django"/>
+  <img src="https://img.shields.io/badge/JavaScript-Frontend-yellow?logo=javascript"/>
+  <img src="https://img.shields.io/badge/SQLite-Database-blue?logo=sqlite"/>
+</p>
 
 ---
 
 ## 🚀 설치 및 실행 방법
-### 1. 프로젝트 클론
-bash <br>
-git clone https://github.com/your-repo/AlcoholWatcher.git <br>
-cd AlcoholWatcher <br>
 
+### 1. 프로젝트 클론
+```bash
+git clone https://github.com/your-repo/AlcoholWatcher.git
+cd AlcoholWatcher
+````
 
 ### 2. 백엔드 서버 실행
-bash <br>
-cd django_webserver <br>
-myenv\Scripts\activate <br>
-python manage.py runserver 0.0.0.0:8000 <br>
 
+```bash
+cd django_webserver
+myenv\Scripts\activate
+python manage.py runserver 0.0.0.0:8000
+```
+
+---
+
+## 👥 Contributors
+
+* **홍길동** – Embedded & Hardware
+* **김철수** – Backend (Django)
+* **이영희** – Frontend (Web)
+
+---
 
 ## 📄 라이선스
-이 프로젝트는 MIT 라이선스를 따릅니다.
 
+이 프로젝트는 [MIT 라이선스](./LICENSE)를 따릅니다.
+
+```
+
+---
+
+👉 이거 그냥 통째로 README.md에 붙여넣으면 돼.  
+원하는 이미지(`logo.png`, `demo.gif`, `architecture.png`)만 네 리포지토리에 추가해주면 완벽하게 보일 거야.  
+
+혹시 내가 `demo.gif` 만드는 방법까지 알려줄까?
+```
