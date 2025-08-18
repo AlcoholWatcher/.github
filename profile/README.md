@@ -1,5 +1,3 @@
-
-````markdown
 <p align="center">
   <img src="./logo.png" alt="AlcoholWatcher Logo" width="200"/>
 </p>
@@ -78,36 +76,3 @@
 ```bash
 git clone https://github.com/your-repo/AlcoholWatcher.git
 cd AlcoholWatcher
-````
-
-### 2. 백엔드 서버 실행
-
-```bash
-cd django_webserver
-myenv\Scripts\activate
-python manage.py runserver 0.0.0.0:8000
-```
-
----
-
-## 👥 Contributors
-
-* **홍길동** – Embedded & Hardware
-* **김철수** – Backend (Django)
-* **이영희** – Frontend (Web)
-
----
-
-## 📄 라이선스
-
-이 프로젝트는 [MIT 라이선스](./LICENSE)를 따릅니다.
-
-```
-
----
-
-👉 이거 그냥 통째로 README.md에 붙여넣으면 돼.  
-원하는 이미지(`logo.png`, `demo.gif`, `architecture.png`)만 네 리포지토리에 추가해주면 완벽하게 보일 거야.  
-
-혹시 내가 `demo.gif` 만드는 방법까지 알려줄까?
-```
