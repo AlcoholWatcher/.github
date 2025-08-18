@@ -1,12 +1,5 @@
 <h1 align="left">🚗 AlcoholWatcher</h1>
-<p align="left">음주운전 방지를 위한 IoT + Embedded + Web 시스템</p>
-
-<p align="left">
-  <a href="https://youtu.be/z9DGNRnyafg"><img src="https://img.shields.io/badge/Demo-YouTube-red?logo=youtube"></a>
-  <a href="https://buly.kr/3COReJe"><img src="https://img.shields.io/badge/PPT-자료-blue?logo=microsoftpowerpoint"></a>
-  <img src="https://img.shields.io/badge/License-MIT-yellow?logo=open-source-initiative">
-</p>
-
+<p align="left"><b>음주운전 방지를 위한 IoT + Embedded + Web 시스템</b></p>
 ---
 
 ## 🎬 시연 영상
