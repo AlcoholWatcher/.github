@@ -54,10 +54,8 @@
 
 ---
 ## 👥 함께한 사람
-<p align="left">
-  <img src="https://img.shields.io/badge/STM32-Embedded-blue?logo=stmicroelectronics"/>
-  <img src="https://img.shields.io/badge/ESP32-IoT-lightgrey?logo=espressif"/>
-  <img src="https://img.shields.io/badge/Django-Backend-green?logo=django"/>
-  <img src="https://img.shields.io/badge/JavaScript-Frontend-yellow?logo=javascript"/>
-  <img src="https://img.shields.io/badge/SQLite-Database-blue?logo=sqlite"/>
-</p>
+- **윤용성** - 웹 풀스택 개발 / STM32, ESP32, 서버 통신 개발
+- **장승원** - 하드웨어 회로 설계 / 센서 통합
+- **민경서** - STM32, ESP32, 서버 통신 개발 / 아키텍처 설계 및 문서관리
+- **이지호** - 스피커 센서 설계 / 요구사항 분석 및 테스트
+- **오동훈** - STM32, ESP32, 서버 통신 개발 / 보행자 안드로이드 앱 개발
