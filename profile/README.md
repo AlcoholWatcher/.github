@@ -1,7 +1,7 @@
-<h1 align="center">🚗 AlcoholWatcher</h1>
-<p align="center">음주운전 방지를 위한 IoT + Embedded + Web 시스템</p>
+<h1 align="left">🚗 AlcoholWatcher</h1>
+<p align="left">음주운전 방지를 위한 IoT + Embedded + Web 시스템</p>
 
-<p align="center">
+<p align="left">
   <a href="https://youtu.be/z9DGNRnyafg"><img src="https://img.shields.io/badge/Demo-YouTube-red?logo=youtube"></a>
   <a href="https://buly.kr/3COReJe"><img src="https://img.shields.io/badge/PPT-자료-blue?logo=microsoftpowerpoint"></a>
   <img src="https://img.shields.io/badge/License-MIT-yellow?logo=open-source-initiative">
@@ -10,16 +10,17 @@
 ---
 
 ## 🎬 시연 영상
-<p align="center">
-  <a href="https://youtu.be/z9DGNRnyafg">
-    <img src="./demo.gif" alt="AlcoholWatcher Demo" width="600"/>
-  </a>
+<p align="left">
+  <a href="https://youtu.be/z9DGNRnyafg"><img src="https://img.shields.io/badge/Demo-YouTube-red?logo=youtube"></a>
 </p>
 
 ---
+https://buly.kr/4xY1Set
+## 📂 PPT 발표 자료
+<p align="left">
+  <a href="https://buly.kr/4xY1Set"><img src="https://img.shields.io/badge/PPT-자료-blue?logo=microsoftpowerpoint"></a>
+</p>
 
-## 📑 PPT 발표 자료
-📂 발표 자료: [링크 바로가기](https://buly.kr/3COReJe)
 
 ---
 
@@ -49,14 +50,14 @@
 ---
 
 ## 📡 시스템 아키텍처
-<p align="center">
+<p align="left">
   <img src="./architecture.png" alt="System Architecture" width="700"/>
 </p>
 
 ---
 
 ## 🛠 기술 스택
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/STM32-Embedded-blue?logo=stmicroelectronics"/>
   <img src="https://img.shields.io/badge/ESP32-IoT-lightgrey?logo=espressif"/>
   <img src="https://img.shields.io/badge/Django-Backend-green?logo=django"/>
