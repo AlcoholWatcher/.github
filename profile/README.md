@@ -2,11 +2,14 @@
 <p align="left"><b>음주운전 방지를 위한 IoT + Embedded + Web 시스템</b></p>
 <p align="left">AlcoholWatcher는 음주운전 방지를 위한 시스템으로, 사용자의 혈중알코올농도를 측정하고 차량의 속도와 시동을 제어합니다.</p>
 
+---
 
 ## 🎬 시연 영상
 <p align="left">
   <a href="https://youtu.be/z9DGNRnyafg"><img src="https://img.shields.io/badge/Demo-YouTube-red?logo=youtube"></a>
 </p>
+
+---
 
 ## 📂 PPT 발표 자료
 <p align="left">
