@@ -8,8 +8,6 @@
   <a href="https://youtu.be/z9DGNRnyafg"><img src="https://img.shields.io/badge/Demo-YouTube-red?logo=youtube"></a>
 </p>
 
----
-https://buly.kr/4xY1Set
 ## 📂 PPT 발표 자료
 <p align="left">
   <a href="https://buly.kr/4xY1Set"><img src="https://img.shields.io/badge/PPT-자료-blue?logo=microsoftpowerpoint"></a>
