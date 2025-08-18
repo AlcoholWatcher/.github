@@ -7,7 +7,7 @@
 - **https://youtu.be/z9DGNRnyafg**
 <br>
 
-## 🎬 시연 영상
+## 📑 PPT 발표 자료 
 - **https://buly.kr/3COReJe**
 <br>
 
