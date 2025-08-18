@@ -6,20 +6,11 @@
 <br>
 
 ## 🎬 시연 영상
-<p align="left">
-  <a href="https://youtu.be/z9DGNRnyafg"><img src="https://img.shields.io/badge/Demo-YouTube-red?logo=youtube"></a>
-</p>
-
----
+- **https://youtu.be/z9DGNRnyafg**
 <br>
 
 ## 📂 PPT 발표 자료
-<p align="left">
-  <a href="https://buly.kr/4xY1Set"><img src="https://img.shields.io/badge/PPT-자료-blue?logo=microsoftpowerpoint"></a>
-</p>
-
-
----
+- **https://buly.kr/4xY1Set**
 <br>
 
 ## 📌 주요 기능
@@ -66,11 +57,11 @@
 </p>
 
 ---
-<br>
-
-## 🚀 설치 및 실행 방법
-
-### 1. 프로젝트 클론
-```bash
-git clone https://github.com/your-repo/AlcoholWatcher.git
-cd AlcoholWatcher
+## 👥 함께한 사람
+<p align="left">
+  <img src="https://img.shields.io/badge/STM32-Embedded-blue?logo=stmicroelectronics"/>
+  <img src="https://img.shields.io/badge/ESP32-IoT-lightgrey?logo=espressif"/>
+  <img src="https://img.shields.io/badge/Django-Backend-green?logo=django"/>
+  <img src="https://img.shields.io/badge/JavaScript-Frontend-yellow?logo=javascript"/>
+  <img src="https://img.shields.io/badge/SQLite-Database-blue?logo=sqlite"/>
+</p>
