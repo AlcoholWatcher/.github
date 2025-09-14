@@ -1,6 +1,6 @@
 <h1 align="left">🚗 AlcoholWatcher</h1>
 <p align="left"><b>음주운전 방지를 위한 IoT + Embedded + Web 시스템</b></p>
-<p align="left">AlcoholWatcher는 음주운전 방지를 위한 시스템으로, 사용자의 혈중알코올농도를 측정하고 차량의 속도와 시동을 제어합니다.</p>
+<p align="left">AlcoholWatcher는 음주운전 방지를 위한 시스템으로, 사용자의 혈중알코올농도를 측정하고 차량의 속도와 시동을 제어합니다. 이 프로젝트는 A-SPICE Software Engineering 프로세스를 기반으로 수행되었습니다. </p>
 
 ---
 ## 🎬 시연 영상
