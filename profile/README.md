@@ -39,7 +39,7 @@
 
 ## 📡 시스템 아키텍처
 <p align="left">
-  <img src="./architecture.png" alt="System Architecture" width="700"/>
+  <img src="https://github.com/AlcoholWatcher/.github/raw/main/profile/Ac.png" alt="System Architecture" width="700"/>
 </p>
 
 ---
